@@ -1,5 +1,6 @@
 body {
     background-color: #1F2022;
+    overflow-y: auto;
 }
 
 div {
@@ -61,4 +62,16 @@ a:hover {
 a:active {
     background: #A569BD;
     color: #cdfeaa;
+}
+
+@media (max-width: 768px) {
+    div {
+        position: relative;
+        width: 480px;
+        height: 1200px;
+        margin-left: -240px;
+        padding:20px;
+        margin-top: 0px;
+        overflow-x: hidden;
+    }
 }
