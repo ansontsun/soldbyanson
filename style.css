@@ -73,16 +73,16 @@ img {
 @media (max-width: 768px) {
     div {
         position: relative;
-        width: 460px;
+        width: 400px;
         height: 1200px;
-        margin-left: -240px;
+        margin-left: -200px;
         padding:10px;
         margin-top: 0px;
         overflow-x: auto;
     }
 
     img {
-        max-height: 80%;
-        max-width: 80%;
+        max-height: 50%;
+        max-width: 50%;
     }
 }
