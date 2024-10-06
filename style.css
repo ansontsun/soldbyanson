@@ -34,6 +34,7 @@ p {
 
 h6 {
     font-size: medium;
+    font-weight: normal !important;
     color: white !important;
     text-align: center;
     -webkit-text-fill-color: white !important;
