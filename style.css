@@ -34,7 +34,7 @@ p {
 
 h6 {
     font-size: medium;
-    color: white;
+    color: white; !important;
     text-align: center;
 }
 
