@@ -72,6 +72,7 @@ img {
     max-width: 100%;
     object-fit: contain;
     -webkit-object-fit: contain; /* Added for Safari */
+    pointer-events: none; /* Disable pointer events on images */
 }
 
 @media (max-width: 768px) {
