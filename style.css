@@ -32,6 +32,12 @@ p {
     text-align: center;
 }
 
+h6 {
+    font-size: medium;
+    color: white;
+    text-align: center;
+}
+
 a {
     outline-color: transparent;
 }
@@ -60,9 +66,8 @@ a:active {
 }
 
 img {
-    max-height: 120%;
-    max-width: 120%;
-    -o-object-fit: contain;
+    max-height: 100%;
+    max-width: 100%;
     object-fit: contain;
     -webkit-object-fit: contain; /* Added for Safari */
 }
